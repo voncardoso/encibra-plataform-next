@@ -14,6 +14,11 @@ export default function Home() {
       setTypeInput("password");
     }
   }
+
+  function handleLogin(){
+
+  }
+  
   return (
     <main className="container mx-auto h-screen grid grid-cols-2 lg:grid-cols-1 gap-4 min-h-full items-center justify-center bg-background">
       <section className="p-5">
